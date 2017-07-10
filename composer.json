@@ -1,0 +1,19 @@
+{
+    "name": "mirolabs/ruch-clinet",
+    "description": "Client for paczkawruchu.pl",
+    "type": "library",
+    "authors": [
+        {
+            "name": "mirobrando",
+            "email": "mirobrando@wp.pl"
+        }
+    ],
+    "require": {
+        "jms/serializer": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "mirolabs\\ruch\\client\\": "src/"
+        }
+    }
+}
