@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/Z:/www/ruchClient/src/Client.php</file>
-            <file>file:/Z:/www/ruchClient/src/Type/BusinessPackResponse.php</file>
-            <file>file:/Z:/www/ruchClient/src/Converter.php</file>
-            <file>file:/Z:/www/ruchClient/example/generateBusinessPack.php</file>
-            <file>file:/Z:/www/ruchClient/example/configuration.php</file>
-            <file>file:/Z:/www/ruchClient/src/Configuration.php</file>
+            <file>file:/Z:/www/ruchClient/src/Type/BusinessLabelPackResponse.php</file>
+            <file>file:/Z:/www/ruchClient/example/generateLabelBusinnesPack.php</file>
+            <file>file:/Z:/www/ruchClient/composer.json</file>
+            <file>file:/Z:/www/ruchClient/example/getStatus.php</file>
         </group>
     </open-files>
 </project-private>

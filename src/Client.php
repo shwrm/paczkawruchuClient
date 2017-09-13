@@ -144,8 +144,18 @@ class Client
 
     private function getSoapClient()
     {
+        $context = stream_context_create([
+            'ssl' => [
+                // set some SSL/TLS specific options
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            ]
+        ]);
+
+
         if (is_null($this->soapClient)) {
-            $this->soapClient = new \SoapClient($this->configuration->getWsdl());
+            $this->soapClient = new \SoapClient($this->configuration->getWsdl(),['trace' => 1, 'stream_context' => $context]);
         }
         return $this->soapClient;
     }
