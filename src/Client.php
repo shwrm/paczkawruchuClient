@@ -108,7 +108,10 @@ class Client
             'Object',
             'mirolabs\ruch\client\Type\BusinessLabelPackResponse'
         );
-        $result->setFileData($soapResponse->LabelData);
+
+        if (isset($soapResponse->LabelData)) {
+            $result->setFileData($soapResponse->LabelData);
+        }
         return $result;
     }
 
